@@ -1,0 +1,37 @@
+body {
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+.upper, a {
+    color: black;
+    text-decoration: none;
+}
+
+.topContent {
+    border-bottom: 3px black dotted;
+    margin-bottom: 25px;
+    padding: 25px;
+    margin: 10px;
+}
+
+.middle1, .middle2 {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px black dotted;
+    padding: 25px;
+    margin: 10px;
+}
+
+p {
+    line-height: 1.25;
+    margin: 20px o;
+    flex-direction: column;
+    text-align: left;
+}
