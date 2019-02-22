@@ -56,7 +56,14 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-header nav {
+header, .topPic {
+    display: flex;
+    margin: 0;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+header, nav {
     width: 40%;
     display: flex;
     justify-content: space-between;
@@ -66,11 +73,23 @@ header nav {
     margin: 40px;
 }
 
-header nav a {
+header, nav, a {
     /* justify-content: center; */
     color: black;
     text-decoration: none;
+    /* justify-content: space-evenly; */
 }
+
+.upper {
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+.pic2 {
+    margin-bottom: 40px;
+    /* padding: 20px; */
+}
+
 
 #box1 {
     background: teal;
