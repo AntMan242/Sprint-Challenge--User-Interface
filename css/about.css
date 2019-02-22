@@ -3,16 +3,20 @@ body {
     margin-left: 30px;
 }
 
-.head, .upper {
+.head {
     display: flex;
     justify-content: space-evenly;
-    margin: 40px;
+    align-items: baseline;
+}
+
+a {
     color: black;
+    text-decoration: none;
 }
 
 .topContent {
     border-bottom: 3px black dotted;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     padding: 25px;
     margin: 10px;
 }
@@ -22,21 +26,22 @@ body {
     flex-wrap: wrap;
     border-bottom: 2px black dotted;
     padding: 25px;
-    margin: 10px;
+    margin: 20px;
 }
 
 p {
     line-height: 1.25;
-    margin: 20px o;
+    margin: 20px 0;
     flex-direction: column;
     text-align: left;
 }
 
 .foot {
-    background: black;
     color: white;
+    /* background: black; */
     width: 400px;
     height: 50px;
     text-align: center;
-    align-content: center;
+    display: flex;
+    justify-content: space-between;
 }
