@@ -1,6 +1,8 @@
-body {
-    justify-content: flex-start;
-    margin-left: 30px;
+html {
+    max-width: 960px;
+    /* justify-content; */
+    margin: auto;
+    /* margin-left: 30px; */
 }
 
 .head {
@@ -9,7 +11,8 @@ body {
     align-items: baseline;
 }
 
-a {
+.upper a {
+    margin: 50px;
     color: black;
     text-decoration: none;
 }
@@ -38,10 +41,22 @@ p {
 
 .foot {
     color: white;
-    /* background: black; */
-    width: 400px;
+    background: black;
+    /* width: 400px; */
     height: 50px;
     text-align: center;
     display: flex;
     justify-content: space-between;
+}
+
+.foot a {
+    color: white;
+    text-decoration: none;
+    width: 100px;
+}
+
+button {
+    border-radius: 12px;
+    padding: 10px 24px;
+    border: 2px solid black;
 }
